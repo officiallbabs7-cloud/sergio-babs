@@ -7,7 +7,7 @@ const Hero = () => {
                 <h1 className="text-amber-400 text-6xl lg:text-[10rem] p-2 uppercase font-bold ">
                     {HERO_CONTENT.title}
                 </h1>
-                <p className="lg:mt-6 text-m mb-4 font-medium tracking-tighter">
+                <p className="lg:mt-6 text-xl mb-4 font-medium tracking-tighter">
                     {HERO_CONTENT.subtitle}
                 </p>
                 <img src={HERO_CONTENT.image} className="w-full h-[77vh] object-cover rounded-2xl p-2" alt="Hero"> 
