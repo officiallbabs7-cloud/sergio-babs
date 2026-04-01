@@ -41,7 +41,7 @@ export const LINKS = [
 ];
 
 export const HERO_CONTENT = {
-  title: "Sergio Dj Babs 77",
+  title: "Sergio Dj Babs (77)",
   subtitle: "If i tell you sey e easy na setup, who no go no know...",
   image: hero,
 };

@@ -14,13 +14,21 @@ const ContactUs = () => {
                         <RiPhoneLine className="text-3xl mr-4" />
                     </div>
                     <p className="text-lg font-semibold">{CONTACT_INFO.phone.label}</p>
-                    <p className="text-neutral-500">{CONTACT_INFO.phone.value}</p>
+                    <p className="text-neutral-500">
+                        <a href={`tel:${CONTACT_INFO.phone.value}`} className="hover:underline">
+    {CONTACT_INFO.phone.value}
+  </a>
+                    </p>
 
                    <div className="flex mb-8 lg:mb-0">
                         <RiMailLine className="text-3xl mr-4" />
                     </div>
                     <p className="text-lg font-semibold">{CONTACT_INFO.email.label}</p>
-                    <p className="text-neutral-500">{CONTACT_INFO.email.value}</p>
+                    <p className="text-neutral-500">
+                        <a href={`mailto:${CONTACT_INFO.email.value}`} className="hover:underline">
+    {CONTACT_INFO.email.value}
+  </a>
+                    </p>
 
                     <div className="flex">
                         <RiMapPinLine className="text-3xl mr-4" />
