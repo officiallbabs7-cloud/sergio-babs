@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex justify-between items-center py-8">
         <div className="pl-2">
           <a href="#">
-            <img src={logo} width={150} height={15} alt="sergio-babs"></img>
+            <img src={logo} width={150} height={15} alt=" Sergio-babs"></img>
           </a>
         </div>
         <div className="md:hidden">
