@@ -48,23 +48,23 @@ export const HERO_CONTENT = {
 
 export const SERVICES_CONTENT = [
   {
-    title: "Turntable 1",
+    title: "Live Performance & Event DJ",
     description:
-      "Motherland House Dj controller.",
+      "Providing high-energy, seamless mixes for private events and corporate gatherings. Formerly the lead house DJ at Motherland House.",
     image: turntableOneImage,
     alt: "Turntable 1",
   },
   {
-    title: "Turntable 2",
+    title: "Arena-Scale Performances",
     description:
-      "West gate arena resident Dj controller.",
+      "Bringing stadium-level energy to every set. Whether it’s a massive arena or an intimate club, I deliver high-impact sound and a vibe that guests will never forget.",
     image: turntableTwoImage,
     alt: "Turntabe 2",
   },
   {
-    title: "Turntable 3",
+    title: "Private Beach House Events",
     description:
-      "Sencillo ilashe beach house Dj controller.",
+      "Providing premium entertainment for high-end private parties. From sunset lounge sets to high-energy pool parties, I set the exact mood needed for your private retreat.",
     image: turntableThreeImage,
     alt: "Turntable 3",
   },
