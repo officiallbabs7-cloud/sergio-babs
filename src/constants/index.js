@@ -50,7 +50,7 @@ export const SERVICES_CONTENT = [
   {
     title: "Live Performance & Event DJ",
     description:
-      "Providing high-energy, seamless mixes for private events and corporate gatherings. Formerly the lead house DJ at Motherland House.",
+      "Providing high-energy, seamless mixes for private events and corporate gatherings. Formerly the lead house DJ at Motherland festival.",
     image: turntableOneImage,
     alt: "Turntable 1",
   },
