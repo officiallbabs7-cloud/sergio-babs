@@ -73,41 +73,41 @@ export const SERVICES_CONTENT = [
 export const PORTFOLIO_PROJECTS = [
   {
     id: 1,
-    name: "Motherland Day 3",
+    name: "Motherland Festival 2025",
     description:
-      "Motherland concert day",
+      "Capturing the energy of thousands at the Motherland 2025 festival, proudly sponsored by First Bank.",
     image: portfolio1,
     link: "#",
   },
   {
     id: 2,
-    name: "Motherland Day 2",
+    name: "Open-Air Concert Series",
     description:
-      "Motherland house dj",
+      "Master of the outdoor stage. Expertly blending genres and reading massive crowds to ensure an unforgettable concert experience under the sun.",
     image: portfolio2,
     link: "#",
   },
   {
     id: 3,
-    name: "Sencillo Ilashe Beach",
+    name: " Exclusive Island Retreats",
     description:
-      "Second sencillo ilashe island event sponsored by flying fish beer",
+      "Curating the ultimate summer soundtrack for the Flying Fish beach takeover at Sencillo Ilashe Island.",
     image: portfolio3,
     link: "#",
   },
   {
     id: 4,
-    name: "Engine Room",
+    name: "Engine Room Lagos",
     description:
-      "First Engine room gig by +234 and Dj Phil",
+      "Commanding the decks at Engine Room Lagos, delivering high-intensity late-night sets that define the city's legendary nightlife energy.",
     image: portfolio4,
     link: "#",
   },
   {
     id: 5,
-    name: "Vault Club",
+    name: "Vault Club Ikeja",
     description:
-      "Plus one event at vault club ikeja GRA",
+      "Providing a premium nightlife experience at one of Ikeja’s most exclusive venues.",
     image: portfolio5,
     link: "#",
   },
@@ -115,7 +115,7 @@ export const PORTFOLIO_PROJECTS = [
     id: 6,
     name: "Voda Beach Club",
     description:
-      "By the shore event at Voda beach club",
+      "Delivering premium entertainment for elite crowds at Voda Beach Club, specializing in sunset transitions and high-energy coastal rhythms.",
     image: portfolio6,
     link: "#",
   },
