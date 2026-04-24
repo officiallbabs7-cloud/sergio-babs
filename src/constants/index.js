@@ -41,8 +41,8 @@ export const LINKS = [
 ];
 
 export const HERO_CONTENT = {
-  title: "Sergio Dj Babs (77)",
-  subtitle: "If i tell you sey e easy na setup, who no go no know...",
+  title: "DJ BABS",
+  subtitle: "Doctor of all mixes...",
   image: hero,
 };
 
@@ -135,7 +135,7 @@ export const REVIEWS = {
     {
       review:
         "We booked DJ Babs for our wedding and it was the best decision we made. From the entrance to the last dance, everything was perfectly timed and the vibe was unmatched.",
-      name: "Chioma & David",
+      name: "Yejide & Mayowa",
       title: "Wedding Clients",
       image: user2,
     },
@@ -149,21 +149,21 @@ export const REVIEWS = {
     {
       review:
         "Our corporate event felt like a premium lounge experience thanks to DJ Babs. Professional, punctual, and delivered exactly the vibe we wanted.",
-      name: "Adeola S.",
+      name: "Luxe Event Hire",
       title: "Event Organizer",
       image: user4,
     },
     {
       review:
         "From Afrobeats to Amapiano, DJ Babs brought the perfect balance. The house party was a movie! Nobody wanted it to end.",
-      name: "Zainab K.",
+      name: "WHLN.",
       title: "House Party Host",
       image: user5,
     },
     {
       review:
         "We’ve worked with many DJs, but DJ Babs stands out. His energy, timing, and crowd control are top-tier. Highly recommended for concerts and big events.",
-      name: "EventPro NG",
+      name: "MOTHERLAND",
       title: "Concert Organizer",
       image: user6,
     },
