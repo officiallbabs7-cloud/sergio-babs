@@ -12,7 +12,7 @@ const Hero = () => {
         </p>
         <img
           src={HERO_CONTENT.image}
-          className="w-full h-[77vh] object-cover rounded-2xl p-2"
+          className="w-full h-auto object-cover rounded-2xl p-2"
           alt="Hero"
         ></img>
       </div>

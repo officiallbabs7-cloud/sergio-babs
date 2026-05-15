@@ -19,24 +19,28 @@ import user6 from "../assets/user6.jpeg";
 
 export const LINKS = [
   {
+    name: "Home",
+    link: "/",  
+  },
+  {
     name: "Services",
-    link: "#services",
+    link: "/services",
   },
   {
     name: "Portfolio",
-    link: "#portfolio",
+    link: "/portfolio",
   },
   {
     name: "About",
-    link: "#about",
+    link: "/about",
   },
   {
     name: "Reviews",
-    link: "#reviews",
+    link: "/reviews",
   },
   {
     name: "Contact",
-    link: "#contact",
+    link: "/contact",
   },
 ];
 
