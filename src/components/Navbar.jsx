@@ -12,9 +12,9 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="border-b border-neutral-800">
-      <div className="max-w-7xl mx-auto flex justify-between items-center py-8">
-        <div className="pl-2">
+    <nav className="border-b border-neutral-800 relative z-50">
+      <div className="max-w-7xl mx-auto flex justify-between items-center py-8 px-6">
+        <div>
           <Link to="/">
             <img src={logo} width={150} height={15} alt=" Sergio-babs"></img>
           </Link>
@@ -44,7 +44,7 @@ const Navbar = () => {
       <div
         className={`${
           isOpen ? "block" : "hidden"
-        } md:hidden absolute bg-black w-full py-5 px-4 mt-2 border-b-4`}
+        } md:hidden relative bg-black w-full py-5 px-6 border-b border-neutral-800`}
       >
         {LINKS.map((link, index) => (
           <Link
