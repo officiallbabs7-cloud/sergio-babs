@@ -175,7 +175,7 @@ export const REVIEWS = {
 };
 
 export const CONTACT_INFO = {
-  text: "Have questions or need more information? Get in touch with us, and we will be happy to assist you.",
+  text: "Have questions or need more information? Get in touch with Dj Babs, Thanks.",
   phone: {
     label: "Phone",
     value: "07053782724",
