@@ -31,6 +31,10 @@ export const LINKS = [
     link: "/portfolio",
   },
   {
+    name: "Mixtapes",
+    link: "/Mixtapes",
+  },
+  {
     name: "About",
     link: "/about",
   },
@@ -126,7 +130,7 @@ export const PORTFOLIO_PROJECTS = [
 ];
 
 export const REVIEWS = {
-  text: "Hear what clients have to say about DJ Babs and the unforgettable vibes he brings to every event.",
+  text: "See what clients have to say about DJ Babs and the unforgettable vibes he brings to every event.",
   
   reviews: [
     {

@@ -13,6 +13,7 @@ import About from "./components/About";
 import Reviews from "./components/Reviews";
 import ContactUs from "./components/ContactUs";
 import Footer from "./components/Footer";
+import Mixtapes from "./components/Mixtapes";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -37,6 +38,7 @@ function App() {
           <Route path="/" element={<Hero />} />
           <Route path="/services" element={<Services />} />
           <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/Mixtapes" element={<Mixtapes />} />
           <Route path="/about" element={<About />} />
           <Route path="/reviews" element={<Reviews />} />
           <Route path="/contact" element={<ContactUs />} />
