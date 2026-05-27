@@ -144,7 +144,7 @@ export const REVIEWS = {
       review:
         "We booked DJ Babs for our wedding and it was the best decision we made. From the entrance to the last dance, everything was perfectly timed and the vibe was unmatched.",
       name: "Yejide & Mayowa",
-      title: "Wedding Clients",
+      title: "Wedding Client",
       image: user2,
     },
     {
