@@ -12,6 +12,7 @@ import portfolio6 from "../assets/portfolio6.jpeg";
 import portfolio7 from "../assets/portfolio7.jpeg";
 import portfolio8 from "../assets/portfolio8.jpeg";
 
+import images from "../assets/images.jpeg";
 
 export const LINKS = [
   {
@@ -150,42 +151,42 @@ export const REVIEWS = {
         "DJ Babs completely transformed our party! The Amapiano and Afrobeats mix was perfect, and the energy never dropped. Everyone was on the dance floor all night.",
       name: "Tunde A.",
       title: "Birthday Party Host",
-      image: user1,
+      image: images,
     },
     {
       review:
         "We booked DJ Babs for our wedding and it was the best decision we made. From the entrance to the last dance, everything was perfectly timed and the vibe was unmatched.",
       name: "Yejide & Mayowa",
       title: "Wedding Client",
-      image: user2,
+      image: images,
     },
     {
       review:
         "DJ Babs knows how to read the crowd! The transitions were smooth and the song selection was on point. The club was lit from start to finish.",
       name: "Kelvin M.",
       title: "Club Manager",
-      image: user3,
+      image: images,
     },
     {
       review:
         "Our corporate event felt like a premium lounge experience thanks to DJ Babs. Professional, punctual, and delivered exactly the vibe we wanted.",
       name: "Luxe Event Hire",
       title: "Event Organizer",
-      image: user4,
+      image: images,
     },
     {
       review:
         "From Afrobeats to Amapiano, DJ Babs brought the perfect balance. The house party was a movie! Nobody wanted it to end.",
       name: "WHLN.",
       title: "House Party Host",
-      image: user5,
+      image: images,
     },
     {
       review:
         "We’ve worked with many DJs, but DJ Babs stands out. His energy, timing, and crowd control are top-tier. Highly recommended for concerts and big events.",
       name: "MOTHERLAND",
       title: "Concert Organizer",
-      image: user6,
+      image: images,
     },
   ],
 };
