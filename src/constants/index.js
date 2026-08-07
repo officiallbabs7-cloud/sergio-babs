@@ -9,13 +9,9 @@ import portfolio3 from "../assets/portfolio3.jpeg";
 import portfolio4 from "../assets/portfolio4.jpeg";
 import portfolio5 from "../assets/portfolio5.jpeg";
 import portfolio6 from "../assets/portfolio6.jpeg";
+import portfolio7 from "../assets/portfolio7.jpeg";
+import portfolio8 from "../assets/portfolio8.jpeg";
 
-import user1 from "../assets/user1.jpeg";
-import user2 from "../assets/user2.jpeg";
-import user3 from "../assets/user3.jpeg";
-import user4 from "../assets/user4.jpeg";
-import user5 from "../assets/user5.jpeg";
-import user6 from "../assets/user6.jpeg";
 
 export const LINKS = [
   {
@@ -125,6 +121,22 @@ export const PORTFOLIO_PROJECTS = [
     description:
       "Delivering premium entertainment for elite crowds at Voda Beach Club, specializing in sunset transitions and high-energy coastal rhythms.",
     image: portfolio6,
+    link: "#",
+  },
+  {
+    id: 7,
+    name: "Wedding Event",
+    description: 
+      "Setting the perfect atmosphere with great music, seamless mixing, and unforgettable energy for an exceptional celebration.",
+    image: portfolio7,
+    link: "#",
+  },
+  {
+    id: 8,
+    name: "BEAT THE HEAT RAVE",
+    description: 
+      "A night of pure energy at Beat the Heat Rave Party, bringing dynamic selections, smooth transitions, and an unforgettable vibe to the dance floor. 🔥🎶",
+    image: portfolio8,
     link: "#",
   },
 ];
