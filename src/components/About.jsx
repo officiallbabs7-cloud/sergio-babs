@@ -17,8 +17,8 @@ const About = () => {
         <p className="text-lg lg:text-3xl font-light text-center lg:text-left max-w-5xl mx-auto mt-8">
           DJ Babs is a dynamic and versatile DJ known for delivering high-energy
           sets that keeps the crowd moving from start to finish. Specializing in
-          Afrobeats and Amapiano, he blends smooth transitions, and
-          crowd-favorite hits to create unforgettable musical experiences. With
+          Afrobeats, Streets and Amapiano, he blends smooth transitions, and
+          crowd favorite hits to create unforgettable musical experiences. With
           a strong presence across clubs, lounges, weddings, house parties,
           concerts, and corporate events, DJ Babs understands how to read the
           room and set the perfect tone for any occasion. His ability to connect
@@ -26,7 +26,8 @@ const About = () => {
           unique and engaging. For DJ Babs, DJing is more than just playing
           music its about creating moments, building energy, and leaving lasting
           impressions. Whether its an intimate gathering or a packed venue, he
-          brings the right vibe every single time.
+          brings the right vibe every single time. He also started his journey
+          as a Student DJ from Babcock University ilishan-remo ogun state Nigeria.
         </p>
       </div>
     </section>
