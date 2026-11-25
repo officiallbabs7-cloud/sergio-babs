@@ -54,7 +54,7 @@ const Reviews = () => {
       </p>
 
       {/* --- REVIEW FORM --- */}
-      <div className="max-w-xl mx-auto mb-20 p-6 border border-neutral-700 rounded-2xl bg-black">
+      <div className="max-w-xl mx-auto mb-20 p-4 sm:p-6 border border-neutral-700 rounded-2xl bg-black">
         <h3 className="text-center mb-6 text-lg">Leave a Review</h3>
         <form
           onSubmit={handleSubmit}
