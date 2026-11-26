@@ -41,7 +41,10 @@ const Reviews = () => {
   };
 
   return (
-    <section className="max-w-7xl mx-auto border-b-2 pb-20" id="reviews">
+    <section
+      className="w-full max-w-7xl mx-auto border-b-2 px-4 sm:px-6 pb-20"
+      id="reviews"
+    >
       <div className="my-20"></div>
       <h2 className="text-xl lg:text-3xl tracking-tight text-center uppercase mb-12">
         Reviews
@@ -54,7 +57,7 @@ const Reviews = () => {
       </p>
 
       {/* --- REVIEW FORM --- */}
-      <div className="max-w-xl mx-auto mb-20 p-4 sm:p-6 border border-neutral-700 rounded-2xl bg-black">
+      <div className="w-full max-w-xl mx-auto mb-20 p-4 sm:p-6 border border-neutral-700 rounded-2xl bg-black">
         <h3 className="text-center mb-6 text-lg">Leave a Review</h3>
         <form
           onSubmit={handleSubmit}
@@ -63,7 +66,7 @@ const Reviews = () => {
           <input
             type="text"
             placeholder="Your Name"
-            className="p-3 bg-neutral-900 border border-neutral-700 rounded-lg"
+            className="w-full min-w-0 p-3 bg-neutral-900 border border-neutral-700 rounded-lg"
             value={formData.name}
             onChange={(e) => setFormData({ ...formData, name: e.target.value })}
             required
@@ -71,7 +74,7 @@ const Reviews = () => {
           <input
             type="text"
             placeholder="Title (e.g. Wedding Client)"
-            className="p-3 bg-neutral-900 border border-neutral-700 rounded-lg"
+            className="w-full min-w-0 p-3 bg-neutral-900 border border-neutral-700 rounded-lg"
             value={formData.title}
             onChange={(e) =>
               setFormData({ ...formData, title: e.target.value })
@@ -81,7 +84,7 @@ const Reviews = () => {
           <textarea
             placeholder="Your Review"
             rows="4"
-            className="p-3 bg-neutral-900 border border-neutral-700 rounded-lg"
+            className="w-full min-w-0 resize-y p-3 bg-neutral-900 border border-neutral-700 rounded-lg"
             value={formData.review}
             onChange={(e) =>
               setFormData({ ...formData, review: e.target.value })
@@ -103,7 +106,7 @@ const Reviews = () => {
         {reviews.map((review, index) => (
           <div
             key={index}
-            className="mt-10 flex flex-col items-center justify-center rounded-2xl border border-neutral-300 p-10 mx-2 max-w-xs"
+            className="mt-10 flex w-full max-w-xs min-w-0 flex-col items-center justify-center rounded-2xl border border-neutral-300 p-6 sm:p-10 mx-2"
           >
             <p className="mb-4 text-center">"{review.review}"</p>
             <div className="flex items-center mt-4">
